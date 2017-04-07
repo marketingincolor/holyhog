@@ -1,0 +1,198 @@
+/*
+Theme Name: Holy Hog BBQ 2014
+Author: AHHA Creative
+Author URI: http://ahhacreative.com/
+Version: 1.0
+Text Domain: holyhogbbq
+*/
+
+@import './dist/assets/css/main.min.css';
+
+
+@font-face {
+    font-family: 'AlternateGothicFSThree';
+    src: url('./dist/assets/fonts/AlternateGothicFSThree/AlternateGothicFSThree.eot?#iefix') format('embedded-opentype'),
+    url('./dist/assets/fonts/AlternateGothicFSThree/AlternateGothicFSThree.otf')  format('opentype'),
+    url('./dist/assets/fonts/AlternateGothicFSThree/AlternateGothicFSThree.woff') format('woff'),
+    url('./dist/assets/fonts/AlternateGothicFSThree/AlternateGothicFSThree.ttf')  format('truetype'),
+    url('./dist/assets/fonts/AlternateGothicFSThree/AlternateGothicFSThree.svg#AlternateGothicFSThree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FloodStd';
+    src: url('./dist/assets/fonts/FloodStd/FloodStd.eot');
+    src: url('./dist/assets/fonts/FloodStd/FloodStd.eot?#iefix') format('embedded-opentype'),
+    url('./dist/assets/fonts/FloodStd/FloodStd.woff2') format('woff2'),
+    url('./dist/assets/fonts/FloodStd/FloodStd.woff') format('woff'),
+    url('./dist/assets/fonts/FloodStd/FloodStd.ttf') format('truetype'),
+    url('./dist/assets/fonts/FloodStd/FloodStd.svg#FloodStd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*terms & conditions*/
+.page-id-990 .not-nav, .page-id-990 .not-nav { margin-left: 4.4rem; }
+.page-id-990 .catering-photos { display: none; }
+.page-id-990 .community-content-container { margin-top: 2em; margin-bottom:2em; }
+.terms { color:white; }
+/*end terms & conditions*/
+
+/*footer*/
+.bottom-footer { background: url ('http://www.holyhogbbq.com/wp-content/uploads/2017/02/footer-bg2.png') bottom center no-repeat !important; }
+
+/*end footer*/
+
+#breakfast-menu-pdf {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 14rem;
+}
+#promotion-over {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 14rem;
+}
+.page-template-page-breakfast h1, .page-template-page-breakfast h2,
+.page-template-page-breakfast h3, .page-template-page-breakfast h4,
+.page-template-page-breakfast h5, .page-template-page-breakfast h6 {
+    font-family: 'FloodStd';
+}
+
+
+.page-template-page-breakfast div, .page-template-page-breakfast span,
+.page-template-page-breakfast a {
+    font-family: 'AlternateGothicFSThree';
+}
+
+
+
+.page-template-page-catering_150831-php h1, .page-template-page-catering_150831-php h2,
+.page-template-page-catering_150831-php h3, .page-template-page-catering_150831-php h4,
+.page-template-page-catering_150831-php h5, .page-template-page-catering_150831-php h6 {
+    font-family: 'FloodStd';
+}
+
+.page-template-page-catering_150831-php div, .page-template-page-catering_150831-php span,
+.page-template-page-catering_150831-php a {
+    font-family: 'AlternateGothicFSThree';
+}
+
+
+
+li:not(:first-child){
+	margin-top: -7px;
+}
+
+.price-container {
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+.item-data-container {
+	float: left;
+	width: 60%;
+}
+
+.menu-item-note {
+	float: none;
+}
+
+.menu-item-price {
+	float: none;
+}
+
+#menu-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    text-align: center;
+}
+
+.modal-content {
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+#modal-click-here-btn {
+    position: absolute;
+    bottom: 23px;
+    right: 30px;
+    height: 25px;
+    width: 125px;
+}
+
+.modal-close-btn{
+    float: right;
+    background: none;
+    border: 0;
+    padding: 0;
+    font-size: 2.5em;
+    position: relative;
+    top: -25px;
+    right: -10px;
+    margin: 10px;
+    color: #301713;
+    
+    background: #fff;
+    border-radius: 100%;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+button.modal-close-btn:hover {
+    background: none;
+    color: #301713;
+}
+
+button.modal-close-btn:active {
+    background: none;
+}
+
+button.modal-close-btn:focus{
+    background:none;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 40em) {
+.copyright {
+    color: white;
+    font-size: 0.75rem !important;
+    letter-spacing: 2px !important;
+}
+#breakfast-menu-pdf {
+    width: 80%;
+    padding-bottom: 4rem;
+}
+#promotion-over {
+    width: 80%;
+    padding-bottom: 4rem;
+}
+}
+@media only screen and (min-width: 40em) and (max-width: 50em) {
+#breakfast-menu-pdf {
+    width: 80%;
+    padding-bottom: 12rem;
+}
+#promotion-over {
+    width: 80%;
+    padding-bottom: 12rem;
+}
+}

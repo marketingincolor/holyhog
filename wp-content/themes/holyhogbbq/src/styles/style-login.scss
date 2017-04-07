@@ -1,0 +1,8 @@
+/* CSS FOR LOGIN PAGE */
+@import "base";
+
+$ylm-yellow 		: #ffdc36;
+$ylm-pink 			: #ff7979;
+
+body.login 			{ background: $ylm-yellow; }
+.login h1 a 		{ background: url('#{$baseurl}images/yellow-leaf.min.svg') left top no-repeat; }

@@ -1,0 +1,59 @@
+.in-the-community {
+	h2 {
+		background: path("header-bg.png"), path("header-bg.png");
+		background-repeat: no-repeat, no-repeat;
+		background-size: 42% 3px, 42% 3px;
+		padding-top: 0;
+
+		@media #{$small-up} {
+			background-position: 140px 157px, 140px 162px;
+			background-size: 62% 2px,62% 2px;
+			padding-top: 25px;
+		}
+		@media #{$medium-up} {
+			background-position: 324px 85px,324px 90px;
+			background-size: 42% 2px, 42% 2px;
+			padding-top: 75px;
+		}
+		@media #{$large-up} {
+			background-position: 460px 20px, 460px 30px;
+			background-size: 42% 3px, 42% 3px;
+			padding-top: 0px;
+		}
+	}
+
+	.logos {
+		margin-top: -35px;
+
+		ul {
+			float: left;
+			list-style: none;
+
+			@media #{$small-only} {
+				margin-top: 30px;
+				margin-left: 0;
+			}
+		}
+
+		li {
+			padding-bottom: 40px;
+			text-align: center;
+			line-height: 200px;
+		}
+
+
+		ul:first-child li {
+			padding-bottom: 55px;
+		}
+	}
+}
+
+.community-content-container {
+	@extend .font-typed;
+
+	margin-top: -35px;
+
+	@media #{$medium-only} {
+		margin-top: 0;
+	}
+}

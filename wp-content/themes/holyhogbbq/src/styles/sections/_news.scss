@@ -1,0 +1,304 @@
+.page-news {
+	background: path("bg-white-texture.png") top center repeat-y;
+
+	.headline h2 {
+		font-size: rem-calc(69);
+		padding-left: 390px; 
+		padding-top: 30px;
+
+		@media #{$small-only} {
+			text-align: center;
+			padding: 0;
+			width: 100%;
+			font-size: rem-calc(48);
+		}
+
+		@media #{$medium-small-only} {
+			padding-left: 170px;
+			padding-top: 70px;
+		}
+	}
+}
+
+.news-listing,
+.news-single {
+	margin-top: 50px;
+
+	article {
+		clear: both;
+		padding-bottom: 50px;
+		overflow: hidden;
+	}
+}
+
+.news-listing {
+	padding-bottom: 250px;
+}
+
+.entry-meta {
+	@extend .font-gothic;
+	@extend .caps;
+
+	font-size: rem-calc(38);
+	line-height: rem-calc(32px);
+	color: black;
+	letter-spacing: 6px;
+	background: path("menu-behind-arrow.png") center right no-repeat;
+	display: inline-block;
+	padding-right: 80px;
+
+	@media #{$small-only} {
+		display: block;
+		padding: 0;
+		text-align: center;
+	}
+}
+
+.entry-title {
+	@extend .font-brush;
+	@extend .caps;
+
+	font-size: rem-calc(60);
+	color: $primary-color;
+
+	@media #{$small-only} {
+		font-size: rem-calc(36);
+		text-align: center;
+	}
+
+	&:hover {
+		color: black;
+	}
+}
+
+.entry-thumbnail {
+	float: left;
+	margin: 0 30px 30px 0;
+}
+
+.entry-content {
+	@extend .font-typed;
+
+	font-size: rem-calc(18);
+	color: black;
+
+	a {
+		text-decoration: underline;
+	}
+
+	@media #{$small-only} {
+		padding: 0 15px;
+	}
+}
+
+.comments,
+.leave-comment {
+	h3 {
+		@extend .font-wide;
+		@extend .caps;
+
+		font-size: rem-calc(69);
+		color: $primary-color;
+		line-height: 1;
+
+		@media #{$small-only} {
+			font-size: rem-calc(29);
+			padding: 0 15px;
+		}
+
+		.font-brush {
+			font-size: rem-calc(34);
+			display: inline;
+			color: black;
+
+			&:after {
+				content: "";
+				display: inline-block;
+				background: path("click-here-stars.png") left center no-repeat;
+				width: 140px;
+				height: 24px;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+.leave-comment {
+	background: rgba(178, 167, 123, 0.2);
+	padding: 10px 0 250px 0;
+}
+
+.comment-listing {
+	list-style: none;
+	margin: 0;
+	padding-bottom: 30px;
+
+	li {
+		margin: 25px 0;
+		padding: 20px 0;
+		overflow: hidden;
+
+		@media #{$small-only} {
+			padding: 20px 15px 0;
+		}
+	}
+}
+
+.comment-avatar {
+	width: 240px;
+	height: 100%;
+	display: inline-block;
+	margin-right: 50px;
+	float: left;
+
+	@media #{$small-only} {
+		width: 80px;
+		height: 80px;
+		margin-right: 15px;
+	}
+
+	img {
+		border-radius: 100%;
+		width: 240px;
+		height: 240px;
+
+		@media #{$small-only} {
+			width: 80px;
+			height: 80px;
+		}
+	}
+}
+
+.comment-content {
+	display: inline-block;
+
+	@media #{$small-only} {
+		width: 70%;
+	}
+}
+
+.comment-meta {
+	@extend .font-brush;
+	@extend .caps;
+
+	font-size: rem-calc(35);
+	color: black;
+	display: block;
+
+	@media #{$small-only} {
+		font-size: rem-calc(14);
+	}
+
+	a {
+		color: $primary-color;
+	}
+}
+
+.comment-body {
+	@extend .font-typed;
+
+	font-size: rem-calc(18);
+}
+
+.leave-comment-form {
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+
+
+	.form-submit input {
+		@extend .font-gothic;
+		@extend .caps;
+
+		font-size: rem-calc(38);
+		background: transparent;
+		padding-top: 7px;
+		letter-spacing: 6px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 48%;
+		border: 4px solid black;
+		cursor: pointer;
+
+		@media #{$small-only} {
+			position: relative;
+			width: 90%;
+			margin: 0 5%;
+		}
+	}
+}
+
+.comment-field {
+	@extend .font-brush;
+	@extend .caps;
+
+	color: black;
+	width: 48%;
+	float: left;
+	clear: left;
+	overflow: hidden;
+
+	@media #{$small-only} {
+		width: 90%;
+		margin: 0 5%;
+		float: none;
+	}
+
+	label {
+		color: black;
+		font-size: rem-calc(35);
+		display: inline-block;
+		float: left;
+	}
+
+	input {
+		@extend .font-typed;
+
+		font-size: rem-calc(18);
+		float: right;
+		width: 340px;
+		background: transparent;
+		border: 0;
+		box-shadow: inherit;
+		border-bottom: 2px dashed black;
+
+		&:focus {
+			background: transparent;
+			box-shadow: inherit;
+		}
+	}
+}
+
+.comment-content-field {
+	width: 48%;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	@media #{$small-only} {
+		width: 90%;
+		margin: 0 5%;
+		position: relative;
+	}
+
+	label {
+		@extend .font-brush;
+		@extend .caps;
+
+		color: black;
+		display: block;
+		font-size: rem-calc(35);
+	}
+
+	textarea {
+		border: 2px dashed black;
+		background: transparent;
+		height: 100px;
+
+		&:focus {
+			box-shadow: inherit;
+		}
+	}
+}

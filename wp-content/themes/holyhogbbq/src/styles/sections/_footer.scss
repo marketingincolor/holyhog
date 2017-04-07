@@ -1,0 +1,316 @@
+footer {
+	position: relative;
+
+	.catering-photos {
+		position: absolute;
+		top: -150px;
+		width: 100%;
+		z-index: 10;
+
+		@media #{$small-only} {
+			display: none;
+		}
+
+		@media #{$medium-only} {
+			top: -60px;
+		}
+
+		.outer {
+			text-align: center;
+		}
+
+		.photo {
+			display: inline-block;
+			position: relative;
+			margin-left: -50px;
+			padding: 20px;
+			width: 340px;
+			height: 253px;
+			background: path("photo-outline.png") center center no-repeat;
+			transition: all 0.8s ease-in-out;
+
+			@media #{$medium-only} {
+				width: 170px;
+				height: 127px;
+				padding: 10px;
+				margin-left: -20px;
+
+				img {
+					width: 150px !important;
+					height: 107px !important;
+				}
+			}
+
+			@media #{$large-only} {
+				margin-left: -120px;
+			}
+
+			img {
+				width: 300px;
+				height: 213px;
+			}
+
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+
+		.photo-1 {
+			z-index: 10;
+
+			&.visible {
+				transform:rotate(-2deg);
+				-ms-transform:rotate(-2deg); /* IE 9 */
+				-webkit-transform:rotate(-2deg); 
+			}
+		}
+
+		.photo-2 {
+			z-index: 11;
+			top: -50px;
+
+			&.visible {
+				transform:rotate(6deg);
+				-ms-transform:rotate(6deg); /* IE 9 */
+				-webkit-transform:rotate(6deg); 
+			}
+		}
+
+		.photo-3 {
+			z-index: 12;
+
+			&.visible {
+				transform:rotate(-10deg);
+				-ms-transform:rotate(-10deg); /* IE 9 */
+				-webkit-transform:rotate(-10deg); 
+			}
+		}
+
+		.photo-4 {
+			z-index: 11;
+
+			&.visible {
+				transform:rotate(-7deg);
+				-ms-transform:rotate(-7deg); /* IE 9 */
+				-webkit-transform:rotate(-7deg); 
+			}
+		}
+	}
+
+	.email-signup {
+		padding: 140px 0 85px;
+		background: path("bg-dark-wood.jpg") top center repeat-y;
+		
+		@media #{$small-only} {
+			padding-top: 30px;
+		}
+
+		@media #{$medium-only} {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		h2 {
+			@extend .font-wide;
+			@extend .caps;
+			font-size: rem-calc(67);
+			color: white;
+			line-height: 43px;
+
+			@media #{$small-only} {
+				font-size: rem-calc(35);
+				text-align: center;
+			}
+
+			.font-script {
+				font-size: rem-calc(38);
+				display: block;
+				text-transform: lowercase;
+			}
+
+		}
+
+		.hog-nation {
+			@extend .font-typed;
+			background: black;
+			color: white;
+			padding: 20px;
+
+			a {
+				font-weight: normal;
+			}
+
+			button {
+				@extend .font-gothic;
+				background: none;
+				border: 3px solid white;
+				color: white;
+				clear: both;
+				font-size: rem-calc(36);
+				letter-spacing: rem-calc(1);
+				font-weight: normal;
+				text-transform: uppercase;
+				width: 100%;
+
+				&:hover {
+					background: #de5739;
+					border-color: #de5739;
+				}
+			}
+		}
+	}
+
+	.photo-blocks + .email-signup {
+		padding-top: 50px;
+	}
+
+	.email-form {
+		margin: 20px 0;
+		padding: 20px 0 0;
+		border-top: 8px solid white;
+		border-bottom: 8px solid white;
+
+		.row {
+			margin-bottom: 25px;
+		}
+
+		button[type=submit] {
+			color: white;
+
+			&:hover {
+				background: white;
+				color: black;
+			}
+		}
+	}
+}
+
+.community-instagram {
+	background: $primary-color;
+	overflow: hidden;
+	padding: 20px 0;
+
+	.big-instagram-icon {
+		background: path("ico-instagram-big.png") center center no-repeat;
+		width: 88px;
+		height: 88px;
+		display: block;
+		float: left;
+		margin: 20px 20px 0 10px;
+
+		@media #{$small-only} {
+			width: 50px;
+			height: 50px;
+			background-size: 50px 50px;
+			margin-top: 0;
+		}
+
+		@media #{$medium-only} {
+			margin-top: 0;
+		}
+	}
+
+	.instagram-hash {
+		font-size: rem-calc(65);
+		color: white;
+		float: left;
+		display: inline-block;
+
+		@media #{$small-only} {
+			font-size: rem-calc(16);
+		}
+
+		@media #{$medium-only} {
+			font-size: rem-calc(36);
+		}
+
+		.font-script {
+			font-size: rem-calc(48);
+			clear: both;
+			display: block;
+			color: $secondary-color;
+			line-height: rem-calc(67);
+
+			@media #{$small-only} {
+				font-size: rem-calc(19);
+			}
+
+			@media #{$medium-only} {
+				font-size: rem-calc(42);
+			}
+		}
+	}
+}
+
+.bottom-footer {
+	background: path("footer-bg.png") bottom center no-repeat;
+	height: 203px;
+	margin-top: -40px;
+	padding-top: 60px;
+
+	@media #{$small-only} {
+		padding-top: 40px;
+	}
+}
+
+.copyright {
+	@extend .font-gothic;
+	@extend .caps;
+
+	@media #{$small-only} {
+		text-align: center;
+		font-size: rem-calc(18);
+	}
+
+	color: white;
+	font-size: rem-calc(22);
+	letter-spacing: 6px;
+}
+
+.yellow-leaf-link {
+	@extend .font-typed;
+
+	font-size: rem-calc(18);
+	color: #ffdc36;
+
+	@media #{$small-only} {
+		font-size: rem-calc(10);
+	}
+}
+
+.yellow-leaf-logo {
+	background: path("ico-yellow-leaf.png") center center no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.social-footer {
+	float: right;
+
+	@media #{$small-only} {
+		float: none;
+		display: block;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		margin-left: 10px;
+	}
+}
+
+.small-social {
+	width: 26px;
+	height: 26px;
+	display: block;
+}
+
+.ico-fb {background: path("ico-fb-small.png") center center no-repeat;}
+.ico-tw {background: path("ico-tw-small.png") center center no-repeat;}
+.ico-gp {background: path("ico-gp-small.png") center center no-repeat;}
+.ico-yt {background: path("ico-yt-small.png") center center no-repeat;}
+.ico-pt {background: path("ico-pt-small.png") center center no-repeat;}
+.ico-yl {background: path("ico-yl-small.png") center center no-repeat;}
