@@ -247,6 +247,10 @@ footer {
 	height: 203px;
 	margin-top: -40px;
 	padding-top: 60px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 	@media #{$small-only} {
 		padding-top: 40px;

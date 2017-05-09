@@ -114,7 +114,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="bottom-footer outer" style="height: 217px;">
+		<section class="bottom-footer outer" style="height: 260px;">
 			<div class="row">
 				<div class="large-12 columns copyright text-center">
 					Copyright &copy;<?php echo date("Y"); ?>. Holy Hog BBQ. All Rights Reserved. <a href="http://www.holyhogbbq.com/terms-conditions/" class="terms">Terms & Conditions.</a>
@@ -133,7 +133,8 @@
 				</div>
                        </div>
 <div class="show-for-large-up small-12 centered columns" style="text-align:center;">
-				<a href="https://www.expertise.com/fl/tampa/catering" style="display:inline-block; border:0;"><img style="max-height:70px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/uploads/2016/12/fl_tampa_catering_2016.png" alt="Best Caterers in Tampa" /></a>
+				<a href="https://www.expertise.com/fl/tampa/catering" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/uploads/2016/12/fl_tampa_catering_2016.png" alt="Best Caterers in Tampa" /></a>
+				<a href="http://www.usfalumni.org/s/861/02-alumni/index.aspx?sid=861&gid=1&pgid=4177" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/uploads/2017/05/5.1.17_fast_56_winner_badge.png" alt="Fast 56 2017 Recipient - Fastest Growing Bull Businesses" /></a>
 				</div>
 			</div>
 			</div>

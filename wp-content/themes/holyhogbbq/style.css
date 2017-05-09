@@ -40,7 +40,7 @@ Text Domain: holyhogbbq
 /*end terms & conditions*/
 
 /*footer*/
-.bottom-footer { background: url ('http://www.holyhogbbq.com/wp-content/uploads/2017/02/footer-bg2.png') bottom center no-repeat !important; }
+.bottom-footer { background: url ('http://www.holyhogbbq.com/wp-content/uploads/2017/02/footer-bg2.png') bottom center no-repeat / cover !important; }
 
 /*end footer*/
 
