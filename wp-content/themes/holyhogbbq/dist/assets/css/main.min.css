@@ -22112,7 +22112,7 @@ footer .email-form button[type=submit]:hover {
 }
 
 .bottom-footer {
-  background: url(../img/footer-bg.png) bottom center no-repeat;
+  background: url(../img/footer-bg.png) bottom center no-repeat / cover;
   height: 203px;
   margin-top: -40px;
   padding-top: 60px;
