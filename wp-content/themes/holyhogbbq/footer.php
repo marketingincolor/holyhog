@@ -107,11 +107,11 @@
 
 
 				<!-- HOG NATION -->
-				<div class="hog-nation">
-					<h2><span class="font-script">Attention</span>Hog Nation</h2>
-					<?php the_field('hog_nation_content', 'options'); ?>
-					<!-- <a href="#"><button class="right">Yes, Please</button></a> -->
-				</div>
+				<?php //<div class="hog-nation">; ?>
+					<?php //<h2><span class="font-script">Attention</span>Hog Nation</h2>; ?>
+					<?php //the_field('hog_nation_content', 'options'); ?>
+					<?php //<!-- <a href="#"><button class="right">Yes, Please</button></a> -->; ?>
+				<?php //</div>; ?>
 			</div>
 		</section>
 		<section class="bottom-footer outer" style="height: 260px;">
@@ -133,8 +133,10 @@
 				</div>
                        </div>
 <div class="show-for-large-up small-12 centered columns" style="text-align:center;">
-				<a href="https://www.expertise.com/fl/tampa/catering" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/uploads/2016/12/fl_tampa_catering_2016.png" alt="Best Caterers in Tampa" /></a>
-				<a href="http://www.usfalumni.org/s/861/02-alumni/index.aspx?sid=861&gid=1&pgid=4177" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/uploads/2017/05/Fast-56-Winner-Badge-Reversed.png" alt="Fast 56 2017 Recipient - Fastest Growing Bull Businesses" /></a>
+				<a href="https://www.expertise.com/fl/tampa/catering" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/Tampa-Catering-Footer-Logo.png" alt="Best Caterers in Tampa" /></a>
+				<a href="http://www.usfalumni.org/s/861/02-alumni/index.aspx?sid=861&gid=1&pgid=4177" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/Fast-56-Winner-Badge-Footer-Logo.png" alt="Fast 56 2017 Recipient - Fastest Growing Bull Businesses" /></a>
+				<a href="https://www.visittampabay.com/" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/Viti-Tampa-Bay-Footer-Logo.png" alt="Proud Partner Visit Tampa Bay" /></a>
+				<a href="http://westtampachamber.com/" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/West-Tampa-Chamber-Footer-Logo.png" alt="Proud Member of West Tampa Chamber" /></a>
 				</div>
 			</div>
 			</div>
