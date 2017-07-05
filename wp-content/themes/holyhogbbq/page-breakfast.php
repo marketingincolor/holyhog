@@ -144,7 +144,7 @@ get_header(); ?>
 			?>
 		</div>
 		<div class="order-online-callout mobile">
-			<a href="#" target="_blank">
+			<a href="<?php bloginfo('url'); ?>/order-online" target="_blank">
 				<h3>
 					<span class="click-here-to">Click here to</span>
 					Order Online
