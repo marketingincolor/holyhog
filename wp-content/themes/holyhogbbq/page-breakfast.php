@@ -75,7 +75,7 @@ get_header(); ?>
 														}
 
 														if ($menu_item_dinner_price){
-															echo "<div class='menu-item-price'>Dinner {$menu_item_dinner_price}</div>";
+															echo "<div class='menu-item-price'>Plate {$menu_item_dinner_price}</div>";
 														}
 
 														if ( $menu_item_by_the_pound ) {
@@ -144,7 +144,7 @@ get_header(); ?>
 			?>
 		</div>
 		<div class="order-online-callout mobile">
-			<a href="#" target="_blank">
+			<a href="<?php bloginfo('url'); ?>/order-online" target="_blank">
 				<h3>
 					<span class="click-here-to">Click here to</span>
 					Order Online
