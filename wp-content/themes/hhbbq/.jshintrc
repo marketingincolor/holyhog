@@ -1,0 +1,14 @@
+{
+	"bitwise" 		: true,
+	"camelcase" 	: true,
+	"es3"			: true,
+	"indent"		: 4,
+	"maxlen"		: 80,
+	"maxparams" 	: 3,
+	"maxstatements"	: 4,
+	"noempty" 		: true,
+	"nonew"			: true,
+	"quotmark"		: "single",
+	"undef" 		: true,
+	"unused" 		: true
+}

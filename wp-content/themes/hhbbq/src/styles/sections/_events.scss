@@ -1,0 +1,59 @@
+.events {
+	.headline {
+		@media #{$small-only} {
+			height: 90px;
+		}
+
+		h2 {
+			padding-top: 60px;
+
+			@media #{$small-only} {
+				padding-top: 20px;
+				text-align: center;
+			}
+			@media #{$medium-up} {
+				padding-top: 82px;
+			}
+			@media #{$large-up} {
+				padding-top: 52px;
+			}
+		}
+	}
+
+	.content.container {
+		@media #{$small-only} {
+			overflow: hidden;
+		}
+	}
+
+	.events-content {
+		@media #{$medium-up} {
+			margin-left: 0;
+			padding-top: 30px;
+		}
+		@media #{$large-up} {
+		}
+
+		p {
+			@media #{$medium-small-only} {
+				font-size: .8em;
+			}
+		}
+
+		.menu-section-separator {
+			background-size: 100%;
+		}
+	}
+
+	.events-content p {
+		font-weight: 600;
+	}
+}
+
+.event-content-container {
+	@extend .font-typed;
+
+	overflow: hidden;
+	position: relative;
+	top: -50px;
+}
