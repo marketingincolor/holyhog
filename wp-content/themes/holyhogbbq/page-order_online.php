@@ -33,7 +33,7 @@ get_header(); ?>
 				<div class="ico-number number-<?= $count; ?>"><?= $count; ?></div>
 				<h3><?= $one['location_name']; ?></h3>
 				<?php if ($one['location_phone_number']) { ?><span class="phone-number"><?= $one['location_phone_number']; ?></span><?php } ?>
-				<?php  if ($one['location_address']) { ?><span class="address"><?= $one['location_address']; ?></span><?php } ?>
+				<?php  if ($one['location_address']) { ?><span class="address"><?= $one['location_address']; ?><br /><br /><?= $one['location_hours']; ?><br></span><?php } ?>
 				<?php if ($one['order_online_delivery']) { ?>
 					<a href="<?= $one['order_online_delivery']; ?>"><button class="order-online" id="<?= $one['location_name']; ?>">Order Delivery</button></a>
 				<?php } ?>
