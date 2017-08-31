@@ -35,10 +35,10 @@ get_header(); ?>
 				<?php if ($one['location_phone_number']) { ?><span class="phone-number"><?= $one['location_phone_number']; ?></span><?php } ?>
 				<?php  if ($one['location_address']) { ?><span class="address"><?= $one['location_address']; ?><br /><br /><?= $one['location_hours']; ?><br></span><?php } ?>
 				<?php if ($one['order_online_delivery']) { ?>
-					<a href="<?= $one['order_online_delivery']; ?>"><button class="order-online" id="<?= $one['location_name']; ?>">Order Delivery</button></a>
+					<a href="<?= $one['order_online_delivery']; ?>"><button class="order-online" id="<?= $one['location_name']; ?>" target="_blank">Order Delivery</button></a>
 				<?php } ?>
 				<?php if ($one['order_online_pickup']) { ?>
-					<a href="<?= $one['order_online_pickup']; ?>"><button class="order-online" id="<?= $one['location_name']; ?>">Order  Pickup</button></a>
+					<a href="<?= $one['order_online_pickup']; ?>"><button class="order-online" id="<?= $one['location_name']; ?>" target="_blank">Order  Pickup</button></a>
 				<?php } ?>
 			</div>
 

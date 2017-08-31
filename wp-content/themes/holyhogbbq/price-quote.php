@@ -50,20 +50,8 @@
 		</h2>
 		<div class="catering-form">
 			<div class="location-button">
-				<h2>Armenia</h2>
+				<h2>All Locations</h2>
 				<button id="armenia-button">Request a Quote</button>
-			</div>
-			<div class="location-button">
-				<h2>Carrollwood</h2>
-				<button id="carrollwood-button">Request a Quote</button>
-			</div>
-			<div class="location-button">
-				<h2>Downtown</h2>
-				<button id="downtown-button">Request a Quote</button>
-			</div>
-			<div class="location-button">
-				<h2>Henderson</h2>
-				<button id="henderson-button">Request a Quote</button>
 			</div>
 			<!-- Element to pop up -->
 			<div id="element_to_pop_up" style="display:none; width: 630px;   height: 400px;"></div>
