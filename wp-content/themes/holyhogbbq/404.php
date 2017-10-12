@@ -35,6 +35,9 @@
 			}
 			.forofor h2 { font-size:2.5em; margin-top:20px; font-family: "alternate-gothic-no-1-d", sans-serif; }
 			ul.social li a { background-size: auto 50px !important; }
+			@media only screen and (min-width: 0em) and (max-width: 40em) {
+				ul.social li a { background-size: auto 30px !important; }
+			}
 		</style>
         <?php wp_head(); ?>
 
@@ -90,7 +93,6 @@
 								<li><a class="social-facebook" href="<?php the_field( 'facebook', 'option' ); ?>">Facebook</a></li>
 								<li><a class="social-google-plus" href="<?php the_field( 'googleplus', 'option' ); ?>">Google+</a></li>
 								<li><a class="social-youtube" href="<?php the_field( 'youtube', 'option' ); ?>">YouTube</a></li>
-								<li><a class="social-pinterest" href="<?php the_field( 'pinterest', 'option' ); ?>">Pinterest</a></li>
 								<li><a class="social-yelp" href="<?php the_field( 'yelp', 'option' ); ?>">Yelp</a></li>
 							</ul>
 						</div>
@@ -109,7 +111,6 @@
 							<li><a class="social-facebook" href="<?php the_field( 'facebook', 'option' ); ?>">Facebook</a></li>
 							<li><a class="social-google-plus" href="<?php the_field( 'googleplus', 'option' ); ?>">Google+</a></li>
 							<li><a class="social-youtube" href="<?php the_field( 'youtube', 'option' ); ?>">YouTube</a></li>
-							<li><a class="social-pinterest" href="<?php the_field( 'pinterest', 'option' ); ?>">Pinterest</a></li>
 							<li><a class="social-yelp" href="<?php the_field( 'yelp', 'option' ); ?>">Yelp</a></li>
 						</ul>
 					</div>
@@ -134,7 +135,6 @@
 						<li><a href="<?php the_field( 'twitter', 'option' ); ?>" target="_blank"><span class="small-social ico-tw"></span></a></li>
 						<li><a href="<?php the_field( 'googleplus', 'option' ); ?>" target="_blank"><span class="small-social ico-gp"></span></a></li>
 						<li><a href="<?php the_field( 'youtube', 'option' ); ?>" target="_blank"><span class="small-social ico-yt"></span></a></li>
-						<li><a href="<?php the_field( 'pinterest', 'option' ); ?>" target="_blank"><span class="small-social ico-pt"></span></a></li>
 						<li><a href="<?php the_field( 'yelp', 'option' ); ?>" target="_blank"><span class="small-social ico-yl"></span></a></li>
 					</ul>
 				</div>

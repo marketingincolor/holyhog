@@ -127,7 +127,6 @@
 						<li><a href="<?php the_field( 'twitter', 'option' ); ?>" target="_blank"><span class="small-social ico-tw"></span></a></li>
 						<li><a href="<?php the_field( 'googleplus', 'option' ); ?>" target="_blank"><span class="small-social ico-gp"></span></a></li>
 						<li><a href="<?php the_field( 'youtube', 'option' ); ?>" target="_blank"><span class="small-social ico-yt"></span></a></li>
-						<li><a href="<?php the_field( 'pinterest', 'option' ); ?>" target="_blank"><span class="small-social ico-pt"></span></a></li>
 						<li><a href="<?php the_field( 'yelp', 'option' ); ?>" target="_blank"><span class="small-social ico-yl"></span></a></li>
 					</ul>
 				</div>
@@ -137,6 +136,8 @@
 				<a href="http://www.usfalumni.org/s/861/02-alumni/index.aspx?sid=861&gid=1&pgid=4177" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/Fast-56-Winner-Badge-Footer-Logo.png" alt="Fast 56 2017 Recipient - Fastest Growing Bull Businesses" /></a>
 				<a href="https://www.visittampabay.com/" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/Viti-Tampa-Bay-Footer-Logo.png" alt="Proud Partner Visit Tampa Bay" /></a>
 				<a href="http://westtampachamber.com/" style="display:inline-block; border:0;" target="_blank"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/West-Tampa-Chamber-Footer-Logo.png" alt="Proud Member of West Tampa Chamber" /></a>
+				<span style="display:inline-block; border:0;"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/Lightning-Footer-Logo.png" alt="Go Lightning!" /></span>
+				<span style="display:inline-block; border:0;"><img style="max-height:90px; display:block;" height="90" src="http://www.holyhogbbq.com/wp-content/themes/holyhogbbq/dist/assets/img/Bulls-Footer-Logo.png" alt="Proud Member of West Tampa Chamber" /></span>
 				</div>
 			</div>
 			</div>
